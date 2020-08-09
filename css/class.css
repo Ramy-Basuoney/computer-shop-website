@@ -1,0 +1,5 @@
+
+.hover:hover{
+    color: var(--hover);
+    transition: all .3s ease-in-out;
+}

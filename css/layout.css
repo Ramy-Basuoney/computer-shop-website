@@ -1,0 +1,52 @@
+/* layout stylesheet (grid stytem)*/
+/* header grid*/
+.top-header{
+    display: grid;
+    grid-gap: 10px ;
+    align-items: center;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+/* top menu grid*/
+nav ul{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-items: center;
+}
+@media screen and (max-width: 1000px){
+    .top-header{
+        display: grid;
+        grid-gap: 10px ;
+        align-items: center;
+        grid-template-columns: 50px 1fr 1fr;
+    }
+}
+/* top social icon grid*/
+.social-icon ul{
+    display: grid;
+    grid-template-columns:1fr 40px 40px 40px ;
+}
+.social-icon ul li{
+    justify-self: end;
+}
+/* header logo grid*/
+.header-logo{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    grid-template-rows: repeat(9,1fr);
+}
+.header-logo img{
+    grid-column: 5/6;
+    grid-row: 2/4;
+}
+.header-logo h1{
+    grid-row: 6/7;
+    grid-column:4/7 ;
+    justify-self: center; 
+}
+.header-logo button{
+    grid-column: 5/6;
+    grid-row: 7/8;
+    justify-self: center;
+}
+
