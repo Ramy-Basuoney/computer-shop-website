@@ -28,7 +28,7 @@ nav ul li a{
     color: var(--white);
     font-size: 25px;
 }
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1050px){
     .top-header nav{
         display: none;
     }
@@ -38,7 +38,7 @@ nav ul li a{
         color: var(--white);
     }
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 550px){
     .social-icon{
         display: none;
     }
@@ -51,7 +51,7 @@ nav ul li a{
 }
 /* top header img */
 .header-logo img{
-    width: 400px;
+    width: 450px;
 }
 /* top header h1*/
 .header-logo h1{

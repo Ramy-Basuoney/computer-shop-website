@@ -2,23 +2,15 @@
 /* header grid*/
 .top-header{
     display: grid;
-    grid-gap: 10px ;
-    align-items: center;
-    grid-template-columns: 1fr 4fr 1fr;
+    grid-gap: 10px ;   
+    grid-template-columns: 1fr 10fr 2fr;
 }
 /* top menu grid*/
 nav ul{
     display:grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(5,150px);
     justify-items: center;
-}
-@media screen and (max-width: 1000px){
-    .top-header{
-        display: grid;
-        grid-gap: 10px ;
-        align-items: center;
-        grid-template-columns: 50px 1fr 1fr;
-    }
+    justify-content: center;
 }
 /* top social icon grid*/
 .social-icon ul{
@@ -32,21 +24,10 @@ nav ul{
 .header-logo{
     height: 100vh;
     display: grid;
-    grid-template-columns: repeat(9,1fr);
-    grid-template-rows: repeat(9,1fr);
+    grid-template-rows: 470px 100px 100px;
+    justify-content: center;
+    align-content: center;
 }
-.header-logo img{
-    grid-column: 5/6;
-    grid-row: 2/4;
-}
-.header-logo h1{
-    grid-row: 6/7;
-    grid-column:4/7 ;
-    justify-self: center; 
-}
-.header-logo button{
-    grid-column: 5/6;
-    grid-row: 7/8;
-    justify-self: center;
-}
+
+
 
