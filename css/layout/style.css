@@ -14,11 +14,11 @@
 }
 /* section one */
 .section1-container{
-    width: 70%;
+    width: 60%;
     margin: auto;
 }
 .section-1{
-    background-color:  rgb(255, 255, 255);
+    background-image: url(../../images/header-bg.png);
     padding: 20px;
 }
 /* section-1 */
@@ -31,33 +31,37 @@
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 100px;
+    color: var(--hover);
 }
 .service{
-    padding: 30px;
-    background-color: rgb(221, 221, 221);
+    padding: 20px;
+    background-color: rgba(86, 87, 143, 0.2);
+    border-radius: 10px;
 }
+
 .service i{
-    font-size: 150px;
-   color:  rgb(56, 56, 56);
+    font-size: 100px;
+    color:  var(--hover)
 }
 
 .service i.computer{
-    font-size: 120px;
-    align-self: center;
-    color:rgb(56, 56, 56);
+    font-size: 80px;
+    align-self: start;
+    color:  var(--hover);
+    margin-top: 18px;
 }
 .service h2{
     justify-self: center;
     font-size: 35px;
-    color: rgb(58, 58, 58);
+    color:  var(--hover)
 }
 .service p{
     font-size: 20px;
-    color:rgb(90, 90, 90);
+    color:var(--hover);
 
 }
 .laptop-container{
-    background-color: rgb(221, 221, 221);
+    background-image: url(../../images/lap-bg.png);
     padding: 20px;
     padding-bottom: 60px;
 }
@@ -67,10 +71,15 @@
     text-align: center;
     padding: 60px;
     margin-bottom: 20px;
+    color: var(--hover);
 }
 .laptop-sec{
     width: 70%;
     margin: auto;
+}
+.laptop-sec img:hover{
+    transform: scale(1.4,1.4);
+    transition: all 1s ease-in-out;
 }
 .propert{
     list-style: disc;
@@ -78,35 +87,40 @@
 .propert li{
     line-height: 200%;
     max-width: 450px;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: bold;
+    color:  var(--hover)
 }
 /* section 333333333333333333333333333*/
 .section-3{
-    background-color: rgb(255, 255, 255);
+    background-color:rgb(236, 236, 236);
     padding: 100px 20px;
+   
 }
 .section-3 h1{
     font-size: 50px;
     font-weight: bold;
     text-align: center;
     margin-bottom: 100px;
+    color: var(--hover);
 }
 .section-3-conainer{
     width: 70%;
     margin: auto;
-    padding:10px
+    padding:10px;
+    
 }
 .section-3-conainer .item{
     padding: 30px;
-    background-color: rgb(0, 0, 0,.2);
-    border: 1px solid rgb(128, 128, 128);
-   
+    background-color: rgba(255, 255, 255);
+      
 }
 .section-3-conainer .item:hover{
     transform: scale(1.1,1.1);
     box-shadow: 1px 1px 10px rgb(77, 77, 77);
-    transition: all .5s ease-in-out;
+    transition: all 1s ease-in-out;
 }
+
 .section-3-conainer .item h3{
     margin-bottom: 10px;
 }

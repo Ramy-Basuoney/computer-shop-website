@@ -35,10 +35,9 @@ nav ul{
 }
 .service{
     display: grid;
-    grid-template-rows: 1fr 50px 1fr;
+    grid-template-rows: 120px 60px 1fr;
     
 }
-
 .service i{
     justify-self: center;
 }
@@ -52,6 +51,7 @@ nav ul{
 .laptop-sec img{ 
     width: 600px;
     justify-self: end;
+    transition: all 1s ease-in-out;
 }
 .laptop-sec .properties{
     justify-self: end;   
@@ -75,12 +75,13 @@ nav ul{
     grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
     justify-items: center;
 }
-@media all and (max-width:550px){
+@media all and (max-width:750px){
     
     .laptop-sec img{
         width: 400px;   
     }
 }
+
 
 
 
