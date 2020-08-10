@@ -1,0 +1,87 @@
+/* layout stylesheet (grid stytem)*/
+/* header grid*/
+.top-header{
+    display: grid;
+    grid-gap: 10px ;   
+    grid-template-columns: 1fr 10fr 2fr;
+}
+/* top menu grid*/
+nav ul{
+    display:grid;
+    grid-template-columns: repeat(5,150px);
+    justify-items: center;
+    justify-content: center;
+}
+/* top social icon grid*/
+.social-icon ul{
+    display: grid;
+    grid-template-columns:1fr 40px 40px 40px ;
+}
+.social-icon ul li{
+    justify-self: end;
+}
+/* header logo grid*/
+.header-logo{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 470px 100px 100px;
+    justify-content: center;
+    align-content: center;
+}
+.section1-container{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit ,minmax(300px,1fr));
+}
+.service{
+    display: grid;
+    grid-template-rows: 1fr 50px 1fr;
+    
+}
+
+.service i{
+    justify-self: center;
+}
+
+.laptop-sec{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    align-items: center;
+}
+
+.laptop-sec img{ 
+    width: 600px;
+    justify-self: end;
+}
+.laptop-sec .properties{
+    justify-self: end;   
+}
+
+
+/* section-333333333333333333333 */
+.section-3-conainer{
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+}
+.section-3-conainer .item{
+    display: grid;  
+    grid-template-rows: 100px 30px 70px 30px 30px 40px;
+    align-items: center;
+    justify-items: center;
+}
+.bt-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    justify-items: center;
+}
+@media all and (max-width:550px){
+    
+    .laptop-sec img{
+        width: 400px;   
+    }
+}
+
+
+
+

@@ -1,0 +1,35 @@
+/* top header img */
+.header-logo img{
+    width: 450px;
+}
+/* top header h1*/
+.header-logo h1{
+    font-size: 70px;
+    color: var(--white);
+    border-top: 3px solid var(--white);
+    border-bottom: 3px solid var(--white);
+}
+/* top header button */
+.header-logo button{
+    min-width: 300px ;
+    padding: 20px;
+    border: none;
+    border-radius: 40px;
+    align-self: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--hover);  
+    transition: all .5s ease-in-out; 
+}
+.header-logo button:hover{
+    background-color: var(--hover);
+    color: white;
+    cursor: pointer;
+}
+@media screen and (max-width:550px){
+   
+    .header-logo h1{
+            font-size: 65px;
+    }  
+}
