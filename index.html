@@ -3,8 +3,9 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="######" />
-    <meta name="keywords" content="#######" />
+    <meta name="description"
+        content="Shop on computer shop app is Free on the play store. Open ... arrow drop down. search. shopping cart. Shopping Cart. arrow_drop_down. search. PC" />
+    <meta name="keywords" content="computer, computer shop, online store, online shoping, buy computer online, cpu" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Computer Shop</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -13,53 +14,67 @@
 
 <body>
     <div class="main-container">
-        <div class="nav-bar">
-            <!-- this hamburgers should be hide untill screen hit min-width 1200px and then will show up -->
-            <div class="nav-bar__hamburgers">
-                <div class="nav-bar__line"></div>
-                <div class="nav-bar__line"></div>
-                <div class="nav-bar__line"></div>
+        <div class="main-container__nav-bar">
+            <div class="nav-bar col">
+                <!-- this hamburgers should be hide untill screen hit min-width 1200px and then will show up -->
+                <div class="nav-bar__hamburgers">
+                    <div class="nav-bar__line"></div>
+                    <div class="nav-bar__line"></div>
+                    <div class="nav-bar__line"></div>
+                </div>
+                <!-- its not scale have width 200px doesnot change even in mobile screen -->
+                <div class="nav-bar__logo col-2">
+                    <img class="nav-bar__picture" src="assets/images/logo/logo.png" alt="logo" />
+                </div>
+                <nav class="nav-bar__menu col-7">
+                    <ul class="nav-bar__list col">
+                        <li class="nav-bar__item col-1"><a class="nav-bar__link nav-bar__link--active" href="#">Home</a>
+                        </li>
+                        <li class="nav-bar__item col-1"><a class="nav-bar__link nav-bar__link--active"
+                                href="#">Products</a>
+                        </li>
+                        <li class="nav-bar__item col-1"><a class="nav-bar__link nav-bar__link--active" href="#">About
+                                us</a>
+                        </li>
+                        <li class="nav-bar__item col-1"><a class="nav-bar__link nav-bar__link--active"
+                                href="#">Contact</a>
+                        </li>
+                        <li class="nav-bar__item col-1"><a class="nav-bar__link nav-bar__link--active"
+                                href="#">Services</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="nav-bar__register-btn col-1">
+                    <button class="nav-bar__btn nav-bar__btn--active">Register</button>
+                </div>
+                <div class=" nav-bar__social-icons col-2">
+                    <ul class="nav-bar__social-list col">
+                        <li class="nav-bar__social-item col-1"><i
+                                class="nav-bar__icon nav-bar__icon--active fa fa-facebook-square"
+                                aria-hidden="true"></i>
+                        </li>
+                        <li class="nav-bar__social-item col-1"><i
+                                class="nav-bar__icon nav-bar__icon--active fa fa-twitter-square" aria-hidden="true"></i>
+                        </li>
+                        <li class="nav-bar__social-item col-1"><i
+                                class="nav-bar__icon nav-bar__icon--active fa fa-instagram" aria-hidden="true"></i></li>
+                        <li class="nav-bar__social-item col-1"><i
+                                class="nav-bar__icon nav-bar__icon--active fa fa-shopping-cart" aria-hidden="true"></i>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <!-- its not scale have width 200px doesnot change even in mobile screen -->
-            <div class="nav-bar__logo">
-                <img class="nav-bar__picture" src="images/logo.png" alt="logo" />
-            </div>
-            <nav class="nav-bar__menu">
-                <ul class="nav-bar__list">
-                    <li class="nav-bar__item"><a class="nav-bar__link nav-bar__link--active" href="#">Home</a></li>
-                    <li class="nav-bar__item"><a class="nav-bar__link nav-bar__link--active" href="#">Products</a></li>
-                    <li class="nav-bar__item"><a class="nav-bar__link nav-bar__link--active" href="#">About us</a></li>
-                    <li class="nav-bar__item"><a class="nav-bar__link nav-bar__link--active" href="#">Contact</a></li>
-                    <li class="nav-bar__item"><a class="nav-bar__link nav-bar__link--active" href="#">Services</a></li>
-                </ul>
-            </nav>
-            <div class="nav-bar__register-btn">
-                <button class="nav-bar__btn nav-bar__btn--active">Register</button>
-            </div>
-            <div class=" nav-bar__social-icons">
-                <ul class="nav-bar__social-list">
-                    <li class="nav-bar__social-item"><i
-                            class="nav-bar__icon nav-bar__icon--active fa fa-facebook-square" aria-hidden="true"></i>
-                    </li>
-                    <li class="nav-bar__social-item"><i class="nav-bar__icon nav-bar__icon--active fa fa-twitter-square"
-                            aria-hidden="true"></i>
-                    </li>
-                    <li class="nav-bar__social-item"><i class="nav-bar__icon nav-bar__icon--active fa fa-instagram"
-                            aria-hidden="true"></i></li>
-                    <li class="nav-bar__social-item"><i class="nav-bar__icon nav-bar__icon--active fa fa-shopping-cart"
-                            aria-hidden="true"></i></li>
-                </ul>
-            </div>
+            <header class="top-banner col-columns">
+                <div class="top-banner__logo col-8">
+                    <img class="top-banner__picture" src="assets/images/home-page/top-banner/top-banner-logo.png"
+                        alt="top-banner-logo">
+                </div>
+                <h1 class="top-banner__title col-2">Online Shoping</h1>
+                <div class="top-banner__button col-2">
+                    <button class="top-banner__btn top-banner__btn--active">Start Now</button>
+                </div>
+            </header>
         </div>
-        <header class="top-banner">
-            <div class="top-banner__logo">
-                <img class="top-banner__picture" src="images/header-logo.png" alt="header-logo">
-            </div>
-            <h1 class="top-banner__title">Online Shoping</h1>
-            <div class="top-banner__button">
-                <button class="top-banner__btn top-banner__btn--active">Start Now</button>
-            </div>
-        </header>
         <section class="departments">
             <h1 class="departments__title">Departments</h1>
             <div class="departments__card">
@@ -95,7 +110,7 @@
             <div class="main-announcement__picture">
                 <!-- its will gonna have scale so consider that on width and height -->
                 <img class="main-announcement__image main-announcement__image--active"
-                    src="images/laptops/MacBook Air.png" alt="laptop">
+                    src="assets/images/home-page/main-announcement/dellxsp13.png" alt="dellxsp13">
             </div>
             <div class="main-announcement__description">
                 <!-- dont remove list-style -->
@@ -116,7 +131,7 @@
             <h1 class="advertisement__title">More Laptops & Notebooks</h1>
             <div class="advertisement__product">
                 <div class="advertisement__picture">
-                    <img src="images/laptops/Dell Alienware.png" alt="dell">
+                    <img src="assets/images/home-page/advertisement-images/dell-alienware.png" alt="dell-alienware">
                 </div>
                 <div class="advertisement__name">
                     <h2>Dell Alienware</h2>
@@ -145,7 +160,7 @@
             </div>
             <div class="advertisement__product">
                 <div class="advertisement__picture">
-                    <img src="images/laptops/Dell XPS 13-9350.png" alt="dell">
+                    <img src="assets/images/home-page/advertisement-images/dell-xps.png" alt="dell-xps">
                 </div>
                 <div class="advertisement__name">
                     <h2>Dell XPS 13</h2>
@@ -174,7 +189,7 @@
             </div>
             <div class="advertisement__product">
                 <div class="advertisement__picture">
-                    <img src="images/laptops/laptops.png" alt="hp">
+                    <img src="assets/images/home-page/advertisement-images/hp-elitebook.png" alt="hp-elitebook">
                 </div>
                 <div class="advertisement__name">
                     <h2>HP EliteBook</h2>
@@ -203,7 +218,7 @@
             </div>
             <div class="advertisement__product">
                 <div class="advertisement__picture">
-                    <img src="images/laptops/ASUS Notebook UX310.png" alt="asus">
+                    <img src="assets/images/home-page/advertisement-images/asus-notebook.png" alt="asus-notebook">
                 </div>
                 <div class="advertisement__name">
                     <h2>Asus Notebook</h2>
@@ -232,7 +247,7 @@
             </div>
             <div class="advertisement__product">
                 <div class="advertisement__picture">
-                    <img src="images/laptops/Laptop Acer Aspire.png" alt="acer">
+                    <img src="assets/images/home-page/advertisement-images/acer-aspire.png" alt="acer-aspire">
                 </div>
                 <div class="advertisement__name">
                     <h2>Acer Aspire</h2>
@@ -261,7 +276,7 @@
             </div>
             <div class="advertisement__product">
                 <div class="advertisement__picture">
-                    <img src="images/laptops/Lenovo Gamer.png" alt="Lenovo Gamer">
+                    <img src="assets/images/home-page/advertisement-images/lenovo-gamer.png" alt="lenovo-gamer">
                 </div>
                 <div class="advertisement__name">
                     <h2>Lenovo Gamer</h2>
@@ -290,7 +305,7 @@
             </div>
             <div class="advertisement__product">
                 <div class="advertisement__picture">
-                    <img src="images/laptops/MacBook Air.png" alt="MacBook Air">
+                    <img src="assets/images/home-page/advertisement-images/macbook-air.png" alt="macbook-air">
                 </div>
                 <div class="advertisement__name">
                     <h2>MacBook Air</h2>
@@ -319,7 +334,7 @@
             </div>
             <div class="advertisement__product">
                 <div class="advertisement__picture">
-                    <img src="images/laptops/MacBook Pro md.png" alt="mac">
+                    <img src="assets/images/home-page/advertisement-images/macbook-pro.png" alt="macbook-pro">
                 </div>
                 <div class="advertisement__name">
                     <h2>MacBook pro</h2>
@@ -348,7 +363,7 @@
             </div>
             <div class="advertisement__product">
                 <div class="advertisement__picture">
-                    <img src="images/laptops/MacBook Pro.png" alt="mac">
+                    <img src="assets/images/home-page/advertisement-images/macbook-pro-md.png" alt="macbook-pro-md">
                 </div>
                 <div class="advertisement__name">
                     <h2>MacBook</h2>
@@ -377,7 +392,7 @@
             </div>
             <div class="advertisement__product">
                 <div class="advertisement__picture">
-                    <img src="images/laptops/Yoga 13 Lenovo.png" alt="yoga">
+                    <img src="assets/images/home-page/advertisement-images/yoga-lenovo.png" alt="yoga-lenovo">
                 </div>
                 <div class="advertisement__name">
                     <h2>Yoga 13 Lenovo</h2>
