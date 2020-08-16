@@ -1,0 +1,16 @@
+/* main style sheet */
+@import "abstracts/variables.css";
+
+@import "base/reset.css";
+
+@import "components/buttons.css";
+
+@import "layout/navigation.css";
+@import "layout/grid.css";
+@import "layout/header.css";
+@import "layout/footer.css";
+
+@import "pages/home.css";
+
+
+

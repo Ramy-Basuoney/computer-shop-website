@@ -1,0 +1,17 @@
+.nav-bar__hamburgers{
+    display: none;
+}
+.nav-bar__picture{
+    width: 250px;
+}
+.top-banner__picture{
+    max-width: 600px;
+    width: 100%;
+    margin-top: 50px;
+}
+.main-container__nav-bar{
+    
+    background-image: url(../../images/home-page/top-banner/top-banner-background.jpg);
+    background-size: cover;
+    padding: 30px;
+}

@@ -1,0 +1,21 @@
+/* colors variables*/
+:root{
+    --gray-btn:rgb(204, 204, 204);
+    --gray-btn-action:rgb(85, 85, 85);
+    --white:rgb(235, 235, 235);
+    --black:rgb(26, 26, 26);
+    --green-btn:rgb(0, 163, 0);
+    --green-btn-action:rgb(0, 206, 0);
+    --yellow:rgb(255, 220, 66);
+    --red:rgb(206, 55, 55);
+}
+/* font variables*/
+:root{
+    --icon:30px;
+    --primary-title:50px;
+    --secondary-title:35px;
+    --paragraph:18px;
+    --link:20px;
+    --button:17px;
+    --big-button:20px;
+}
