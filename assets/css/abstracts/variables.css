@@ -11,11 +11,14 @@
 }
 /* font variables*/
 :root{
+    --big-icon:80px;
     --icon:35px;
     --primary-title:50px;
     --secondary-title:35px;
+    --small-title:25px;
     --paragraph:18px;
     --link:22px;
     --button:17px;
     --big-button:30px;
+    --weight:bold;
 }
