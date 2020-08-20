@@ -1,0 +1,18 @@
+@mixin btn($fontz:null, $background:null, $color:null){
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: $fontz;
+    background-color: $background;
+    color:$color;
+}
+@mixin links($font-icon:null, $fontw:null) {
+    color: $white;
+    font-size: $font-icon;
+    text-decoration: none;
+    font-weight: $fontw ;
+}
+@mixin product-img() {
+    width: 200px;
+    margin-bottom: 10px;
+}

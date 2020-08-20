@@ -256,6 +256,30 @@
     text-align: left;
 } 
 }
+@media screen and (max-width:1400px){
+    .nav-bar__menu{
+        display: none;
+    }
+    .nav-bar__hamburgers{
+        display: block;
+    }
+    .nav-bar__line{
+        width: 30px;
+        height: 5px;
+        margin-bottom: 5px;
+        background-color: $white;
+    }
+}
+@media screen and (max-width:860px){
+    .nav-bar__social-icons{
+        display: none;
+    }
+}
+@media screen and (max-width:500px){
+    .nav-bar__register-btn{
+        display: none;
+    }
+}
 
 
 

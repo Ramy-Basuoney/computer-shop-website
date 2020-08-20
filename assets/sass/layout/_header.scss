@@ -1,0 +1,13 @@
+.top-banner{
+    &__picture{
+        max-width: 650px;
+        width: 100%;
+    }
+    &__title{
+        font-size: $large-title;
+        border-top: 2px solid $white;
+        border-bottom: 2px solid $white;
+        color: $white;
+        margin-bottom: 15px;
+    }
+}

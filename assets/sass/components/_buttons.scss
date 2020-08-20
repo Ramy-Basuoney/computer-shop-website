@@ -1,0 +1,28 @@
+.btn{
+    @include btn;
+    &.nav-bar__btn{
+        @include btn($small-button);
+            min-width: 110px;
+        &--active:hover{
+            background-color: darken($gray-btn, 30%);
+            color: $white;
+            transition: all .3s ease-in-out;  
+        }
+    }
+    &.top-banner__btn{
+        @include btn($large-button, $white, $black);
+            min-width: 260px;
+        &--active:hover{
+            background-color: darken($gray-btn, 30%);
+            color: $white;
+            transition: all .3s ease-in-out;
+        }
+    }
+    &.advertisement__btn{
+        @include btn($small-button, $green-btn, $white);
+        &--active:hover{
+            background-color: darken($green-btn, 5%);
+            transition: all .3s ease-in-out;
+        }
+    } 
+}
