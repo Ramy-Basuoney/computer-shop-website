@@ -6,9 +6,11 @@ $price:rgb(206, 55, 55);
 $gray-btn:rgb(204, 204, 204);
 $green-btn:rgb(0, 163, 0);
 $card:rgb(66, 66, 66);
-$card-active: darken(rgb(66, 66, 66), 10%) ;
+$card-active: darken(rgb(66, 66, 66), 10%);
+$product-cards:rgb(236, 236, 236);
 
 /* font variables*/
+$xsmall-title:15px;
 $small-title:25px;
 $medium-title:35px;
 $large-title:50px;
@@ -16,5 +18,6 @@ $paragraph:18px;
 $link:22px;
 $small-icon:35px;
 $large-icon:80px;
+$stars-icon:25px;
 $small-button:17px;
 $large-button:30px;

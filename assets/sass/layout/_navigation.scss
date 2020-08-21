@@ -12,9 +12,9 @@
             list-style: none;
             .nav-bar__link{
                 @include links($font-icon:$link);
+                transition: all .2s ease-in-out;
                 &--active:hover{
                     color:darken($gray-btn, 20%);
-                    transition: all .2s ease-in-out;
                 }
             }
         }
@@ -22,9 +22,9 @@
             list-style: none;
             .nav-bar__icon{
                 @include links($font-icon:$small-icon);
+                transition: all .2s ease-in-out;
                 &--active:hover{
                     color:darken($gray-btn, 20%);
-                    transition: all .2s ease-in-out;
                 }
             }
         }

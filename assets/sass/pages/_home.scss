@@ -1,7 +1,7 @@
 .departments{
     padding: 80px 20px;
     &__title{
-        @include title();
+        @include title($marginbot:50px);
     }
     &__card{
         @include card();
@@ -28,9 +28,8 @@
     padding: 80px 20px;
     background-image: url(/assets/images/home-page/main-announcement/background-2.png);
     background-size: cover;
-    background-attachment: fixed;
     &__title{
-        @include title();
+        @include title($marginbot:50px);
     }
     &__picture{
         @include product-img(600px);
@@ -41,5 +40,38 @@
     }
     &__item{
         @include font($paragraph, bold, 200%, $card);
+    }
+}
+.advertisement{
+    padding: 80px 20px;
+    &__title{
+        @include title($marginbot:50px);
+    }
+    &__product{
+        @include products();
+        transition: all .5s ease-in-out;
+        &--active:hover{
+            transform: scale(1.1,1.1);
+            background-color: darken($product-cards, 10%);
+        }
+    }
+    &__product > *{
+        margin-bottom: 15px;
+    }
+    &__picture{
+        @include product-img();
+    }
+    &__name{
+        @include title($xsmall-title,$price);
+    }
+    &__list{
+        list-style: none;
+        @include font($link, $lineheight:150%);
+    }
+    &__star{
+        @include font($fontz:$stars-icon, $color:$stars);
+    }
+    &__price{
+        @include font($fontz:$link, $fontw:bold, $color:$price);
     }
 }

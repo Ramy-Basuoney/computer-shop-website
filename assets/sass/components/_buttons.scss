@@ -1,28 +1,28 @@
 .btn{
     @include btn;
     &.nav-bar__btn{
-        @include btn($small-button);
-            min-width: 110px;
+        @include btn($small-button, $min-width:110px);
+        transition: all .5s ease-in-out;
         &--active:hover{
             background-color: darken($gray-btn, 30%);
-            color: $white;
-            transition: all .3s ease-in-out;  
+            color: $white;  
         }
     }
     &.top-banner__btn{
-        @include btn($large-button, $white, $black);
-            min-width: 260px;
+        @include btn($large-button, $white, $black, $min-width:260px);
+        transition: all .5s ease-in-out;
         &--active:hover{
             background-color: darken($gray-btn, 30%);
             color: $white;
-            transition: all .3s ease-in-out;
+          
         }
     }
     &.advertisement__btn{
-        @include btn($small-button, $green-btn, $white);
+        @include btn($small-button, $green-btn, $white, $min-width:180px);
+        transition: all .5s ease-in-out;
         &--active:hover{
             background-color: darken($green-btn, 5%);
-            transition: all .3s ease-in-out;
+            
         }
     } 
 }

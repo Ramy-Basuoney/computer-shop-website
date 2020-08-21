@@ -1,20 +1,35 @@
 /* buttons mixins */
-@mixin btn($fontz:null, $background:null, $color:null){
+@mixin btn($fontz:null, $background:null, $color:null, $min-width:null){
     padding: 10px 20px;
     border: none;
     border-radius: 20px;
     font-size: $fontz;
     background-color: $background;
     color:$color;
+    min-width:$min-width ;
 }
+/* title mixin */
+@mixin title($fontz:$large-title, $color: $card, $marginbot:null) {
+    font-size: $fontz;
+    color:$color;
+    margin-bottom: $marginbot;
+}
+/* font mixin */
+@mixin font($fontz:null, $fontw:null, $lineheight:null, $color:null) {
+    font-size: $fontz;
+    font-weight: $fontw;
+    line-height: $lineheight;
+    color: $color;
+}
+/* link mixin */
 @mixin links($font-icon:null, $fontw:null) {
     color: $white;
     font-size: $font-icon;
     text-decoration: none;
     font-weight: $fontw ;
 }
-/* advertisement section img mixin */
-@mixin product-img($width:200px) {
+/* img mixin */
+@mixin product-img($width:250px) {
     max-width: $width;
     width: 100%;
     margin-bottom: 10px;
@@ -29,15 +44,13 @@
     max-width: 380px;
     cursor: pointer;
 }
-/* font mixin */
-@mixin font($fontz:null, $fontw:null, $lineheight:null, $color:null) {
-    font-size: $fontz;
-    font-weight: $fontw;
-    line-height: $lineheight;
-    color: $color;
-}
-@mixin title() {
-    font-size: $large-title;
-    color: $card;
-    margin-bottom: 50px;
+/* advertisement section products mixin */
+@mixin products() {
+    padding: 15px;
+    max-width: 300px;
+    background-color: $product-cards;
+    margin: 10px;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 10px;
+    cursor: pointer;
 }
