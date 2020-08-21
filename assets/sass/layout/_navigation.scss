@@ -11,7 +11,7 @@
         &__list{
             list-style: none;
             .nav-bar__link{
-                @include links($font-icon:$link);
+                @include links($fontz:$link);
                 transition: all .2s ease-in-out;
                 &--active:hover{
                     color:darken($gray-btn, 20%);
@@ -21,7 +21,7 @@
         &__social-list{
             list-style: none;
             .nav-bar__icon{
-                @include links($font-icon:$small-icon);
+                @include links($fontz:$small-icon);
                 transition: all .2s ease-in-out;
                 &--active:hover{
                     color:darken($gray-btn, 20%);

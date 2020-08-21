@@ -22,11 +22,12 @@
     color: $color;
 }
 /* link mixin */
-@mixin links($font-icon:null, $fontw:null) {
+@mixin links($fontz:null, $fontw:null, $line-height:null) {
     color: $white;
-    font-size: $font-icon;
+    font-size: $fontz;
     text-decoration: none;
     font-weight: $fontw ;
+    line-height: $line-height;
 }
 /* img mixin */
 @mixin product-img($width:250px) {
