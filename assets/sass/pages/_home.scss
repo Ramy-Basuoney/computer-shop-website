@@ -1,15 +1,14 @@
 .departments{
     padding: 80px 20px;
     &__title{
-        font-size: $large-title;
-        color: $card;
-        margin-bottom: 50px;
+        @include title();
     }
     &__card{
         @include card();
         transition: all .7s ease-out;
         &--active:hover{
             transform: scale(1.1,1.1);
+            background-color: $card-active;
         }
     }
     &__card > *{
@@ -23,5 +22,24 @@
     }
     &__description{
         @include font($paragraph, 500, 150%);
+    }
+}
+.main-announcement{
+    padding: 80px 20px;
+    background-image: url(/assets/images/home-page/main-announcement/background-2.png);
+    background-size: cover;
+    background-attachment: fixed;
+    &__title{
+        @include title();
+    }
+    &__picture{
+        @include product-img(600px);
+    }
+    &__list{
+        list-style-position: inside;
+        text-align: left;
+    }
+    &__item{
+        @include font($paragraph, bold, 200%, $card);
     }
 }

@@ -14,8 +14,9 @@
     font-weight: $fontw ;
 }
 /* advertisement section img mixin */
-@mixin product-img() {
-    width: 200px;
+@mixin product-img($width:200px) {
+    max-width: $width;
+    width: 100%;
     margin-bottom: 10px;
 }
 /* department card mixin */
@@ -29,8 +30,14 @@
     cursor: pointer;
 }
 /* font mixin */
-@mixin font($fontz:null, $fontw:null, $lineheight:null) {
+@mixin font($fontz:null, $fontw:null, $lineheight:null, $color:null) {
     font-size: $fontz;
     font-weight: $fontw;
     line-height: $lineheight;
+    color: $color;
+}
+@mixin title() {
+    font-size: $large-title;
+    color: $card;
+    margin-bottom: 50px;
 }
