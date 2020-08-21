@@ -1,0 +1,27 @@
+.departments{
+    padding: 80px 20px;
+    &__title{
+        font-size: $large-title;
+        color: $card;
+        margin-bottom: 50px;
+    }
+    &__card{
+        @include card();
+        transition: all .7s ease-out;
+        &--active:hover{
+            transform: scale(1.1,1.1);
+        }
+    }
+    &__card > *{
+        margin-bottom:20px
+    }
+    &__icon{
+        @include font($large-icon);
+    }
+    &__name{
+        @include font($small-title);
+    }
+    &__description{
+        @include font($paragraph, 500, 150%);
+    }
+}

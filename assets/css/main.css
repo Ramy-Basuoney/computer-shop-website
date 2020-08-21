@@ -1,5 +1,9 @@
 /* color variables */
 /* font variables*/
+/* buttons mixins */
+/* advertisement section img mixin */
+/* department card mixin */
+/* font mixin */
 * {
   margin: 0;
   padding: 0;
@@ -443,6 +447,42 @@
 .btn.advertisement__btn--active:hover {
   background-color: #008a00;
   transition: all 0.3s ease-in-out;
+}
+
+.departments {
+  padding: 80px 20px;
+}
+.departments__title {
+  font-size: 50px;
+  color: #424242;
+  margin-bottom: 50px;
+}
+.departments__card {
+  background-color: #424242;
+  padding: 20px;
+  margin: 10px;
+  color: #ebebeb;
+  border-radius: 10px;
+  max-width: 380px;
+  cursor: pointer;
+  transition: all 0.7s ease-out;
+}
+.departments__card--active:hover {
+  transform: scale(1.1, 1.1);
+}
+.departments__card > * {
+  margin-bottom: 20px;
+}
+.departments__icon {
+  font-size: 80px;
+}
+.departments__name {
+  font-size: 25px;
+}
+.departments__description {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
 }
 
 /*# sourceMappingURL=main.css.map */

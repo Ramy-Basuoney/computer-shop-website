@@ -1,3 +1,4 @@
+/* buttons mixins */
 @mixin btn($fontz:null, $background:null, $color:null){
     padding: 10px 20px;
     border: none;
@@ -12,7 +13,24 @@
     text-decoration: none;
     font-weight: $fontw ;
 }
+/* advertisement section img mixin */
 @mixin product-img() {
     width: 200px;
     margin-bottom: 10px;
+}
+/* department card mixin */
+@mixin card() {
+    background-color: $card;
+    padding: 20px;
+    margin: 10px;
+    color: $white;
+    border-radius: 10px;
+    max-width: 380px;
+    cursor: pointer;
+}
+/* font mixin */
+@mixin font($fontz:null, $fontw:null, $lineheight:null) {
+    font-size: $fontz;
+    font-weight: $fontw;
+    line-height: $lineheight;
 }
