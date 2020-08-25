@@ -45,7 +45,6 @@
     max-width: 380px;
     cursor: pointer;
 }
-/* advertisement section products mixin */
 @mixin products() {
     padding: 15px;
     max-width: 300px;
@@ -54,4 +53,7 @@
     border: 1px solid rgb(224, 224, 224);
     border-radius: 10px;
     cursor: pointer;
-}
+} 
+    
+
+

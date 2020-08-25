@@ -48,7 +48,7 @@
         @include title($marginbot:50px);
     }
     &__product{
-        @include products();
+        @include products;
         transition: all .5s ease-in-out;
         &--active:hover{
             transform: scale(1.1,1.1);

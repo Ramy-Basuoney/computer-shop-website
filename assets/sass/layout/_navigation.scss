@@ -1,4 +1,4 @@
-.main-container__nav-bar{
+.nav-bar-container{
     background-image: url(/assets/images/home-page/top-banner/top-banner-background.jpg);
     background-size: cover;
     min-height: 100vh;
@@ -8,19 +8,18 @@
             max-width: 300px;
             width: 100%;
         }
-        &__list{
-            list-style: none;
-            .nav-bar__link{
+        .menu{
+            &__link{
                 @include links($fontz:$link);
                 transition: all .2s ease-in-out;
                 &--active:hover{
                     color:darken($gray-btn, 20%);
                 }
             }
-        }
-        &__social-list{
+        }      
+        .social-icons{
             list-style: none;
-            .nav-bar__icon{
+            &__icon{
                 @include links($fontz:$small-icon);
                 transition: all .2s ease-in-out;
                 &--active:hover{

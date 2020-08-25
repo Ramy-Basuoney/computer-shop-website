@@ -1,6 +1,6 @@
 .btn{
     @include btn;
-    &.nav-bar__btn{
+    &.register__btn{
         @include btn($small-button, $min-width:110px);
         transition: all .5s ease-in-out;
         &--active:hover{
@@ -8,7 +8,7 @@
             color: $white;  
         }
     }
-    &.top-banner__btn{
+    &.homegame-banner__btn{
         @include btn($large-button, $white, $black, $min-width:260px);
         transition: all .5s ease-in-out;
         &--active:hover{
