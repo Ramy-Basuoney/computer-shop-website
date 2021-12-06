@@ -51,18 +51,36 @@
 }
 /* (main-container__nav-bar) media query for 3 different size of screens */
 @media screen and (max-width: 1400px) {
-  .nav-bar__menu {
-    display: none;
+  .nav-bar__list {
+    background-color: rgba(0, 0, 0, 0.808);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0%;
+    left: -100%;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: center;
+    transition: all 0.5s ease;
+  }
+
+  .toggle {
+    left: 0%;
   }
   .nav-bar__hamburgers {
     display: block;
+    position: fixed;
+    top: 4.5%;
+    left: 6%;
     cursor: pointer;
+    z-index: 999;
   }
   .nav-bar__line {
     width: 25px;
     height: 3px;
     margin-bottom: 5px;
-    background-color: var(--white);
+    background-color: gray;
   }
 }
 @media screen and (max-width: 860px) {

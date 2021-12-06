@@ -1,479 +1,669 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <meta name="description"
-        content="Shop on computer shop app is Free on the play store. Open ... arrow drop down. search. shopping cart. Shopping Cart. arrow_drop_down. search. PC" />
-    <meta name="keywords" content="computer, computer shop, online store, online shoping, buy computer online, cpu" />
+    <meta
+      name="description"
+      content="Shop on computer shop app is Free on the play store. Open ... arrow drop down. search. shopping cart. Shopping Cart. arrow_drop_down. search. PC"
+    />
+    <meta
+      name="keywords"
+      content="computer, computer shop, online store, online shoping, buy computer online, cpu"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Computer Shop</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="assets/css/main.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="main-container">
-        <div class="main-container__nav-bar">
-            <div class="nav-bar row">
-                <!-- this hamburgers should be hide untill screen hit min-width 1200px and then will show up -->
-                <div class="nav-bar__hamburgers col-md-1 col-sm-1 col-xs-2">
-                    <div class="nav-bar__line"></div>
-                    <div class="nav-bar__line"></div>
-                    <div class="nav-bar__line"></div>
-                </div>
-                <!-- its not scale have width 250px doesnot change even in mobile screen -->
-                <div class="nav-bar__logo col-lg-3 col-md-6 col-sm-8 col-xs-10">
-                    <img class="nav-bar__picture" src="assets/images/logo/logo.png" alt="logo" />
-                </div>
-                <nav class="nav-bar__menu col-lg-5 col-lg-right">
-                    <ul class="nav-bar__list row">
-                        <li class="nav-bar__item col-lg-2"><a class="nav-bar__link nav-bar__link--active"
-                                href="#">Home</a>
-                        </li>
-                        <li class="nav-bar__item col-lg-2"><a class="nav-bar__link nav-bar__link--active" href="#">About
-                                us</a>
-                        </li>
-                        <li class="nav-bar__item col-lg-2"><a class="nav-bar__link nav-bar__link--active"
-                                href="#">Products</a>
-                        </li>
-                        <li class="nav-bar__item col-lg-2"><a class="nav-bar__link nav-bar__link--active"
-                                href="#">Contact</a>
-                        </li>
-                        <li class="nav-bar__item col-lg-2"><a class="nav-bar__link nav-bar__link--active"
-                                href="#">Services</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="nav-bar__register-btn col-lg-2 col-md-2 col-sm-3">
-                    <button class="btn nav-bar__btn nav-bar__btn--active">Register</button>
-                </div>
-                <div class=" nav-bar__social-icons col-lg-2 col-md-3">
-                    <ul class="nav-bar__social-list row">
-                        <li class="nav-bar__social-item col-lg-3"><i
-                                class="nav-bar__icon nav-bar__icon--active fa fa-facebook-square"
-                                aria-hidden="true"></i>
-                        </li>
-                        <li class="nav-bar__social-item col-lg-3"><i
-                                class="nav-bar__icon nav-bar__icon--active fa fa-twitter-square" aria-hidden="true"></i>
-                        </li>
-                        <li class="nav-bar__social-item col-lg-3"><i
-                                class="nav-bar__icon nav-bar__icon--active fa fa-instagram" aria-hidden="true"></i></li>
-                        <li class="nav-bar__social-item col-lg-3"><i
-                                class="nav-bar__icon nav-bar__icon--active fa fa-shopping-cart" aria-hidden="true"></i>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <header class="top-banner col">
-                <div class="top-banner__logo">
-                    <img class="top-banner__picture" src="assets/images/home-page/top-banner/top-banner-logo.png"
-                        alt="top-banner-logo" />
-                </div>
-                <h1 class="top-banner__title">Online Store</h1>
-                <button class="btn top-banner__btn top-banner__btn--active">Start Now</button>
-            </header>
-        </div>
-        <section class="departments row col-lg-center">
-            <h1 class="departments__title big-title col-lg-12">Departments</h1>
-            <div class="departments__card col-lg-3 col-md-5 col-sm-12 col-xs-12">
-                <i class="departments__icon fa fa-television" aria-hidden="true"></i>
-                <h1 class="departments__name">Computers</h1>
-                <p class="departments__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
-                    natus quidem quos officiis esse
-                    quae.
-                    Veniam natus ipsum necessitatibus atque.
-                </p>
-            </div>
-            <div class="departments__card col-lg-3 col-md-5 col-sm-12 col-xs-12">
-                <i class="departments__icon fa fa-laptop" aria-hidden="true"></i>
-                <h1 class="departments__name">Laptops</h1>
-                <p class="departments__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
-                    natus quidem quos officiis esse
-                    quae.
-                    Veniam natus ipsum necessitatibus atque.
-                </p>
-            </div>
-            <div class="departments__card col-lg-3 col-md-5 col-sm-12 col-xs-12">
-                <i class="departments__icon fa fa-mobile" aria-hidden="true"></i>
-                <h1 class="departments__name">Mobiles</h1>
-                <p class="departments__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
-                    natus quidem quos officiis esse
-                    quae.
-                    Veniam natus ipsum necessitatibus atque.
-                </p>
-            </div>
-        </section>
-        <section class="main-announcement row col-lg-center">
-            <h1 class="main-announcement__title big-title col-lg-12">Dell XPS 13</h1>
-            <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
-                <!-- its will gonna have scale so consider that on width and height -->
-                <img class="main-announcement__picture main-announcement__picture--active"
-                    src="assets/images/home-page/main-announcement/dellxsp13.png" alt="dellxsp13" />
-            </div>
-            <div class="main-announcement__description col-lg-3 col-md-5 col-sm-8 col-xs-12">
-                <!-- dont remove list-style -->
-                <ul class="main-announcement__list">
-                    <li class="main-announcement__item">Computer CPU Manufacturer : Apple</li>
-                    <li class="main-announcement__item">External Product ID : 190199256170</li>
-                    <li class="main-announcement__item">Hard Disk Interface : SSD</li>
-                    <li class="main-announcement__item">Processor Speed (GHz) : 1.1 Up To 3.2 Ghz</li>
-                    <li class="main-announcement__item">Hardware Platform : Mac OS</li>
-                    <li class="main-announcement__item">Screen Size Range : 13 - 13.9 Inch</li>
-                    <li class="main-announcement__item">RAM Size : 8 GB</li>
-                    <li class="main-announcement__item">Processor Family : Intel Core i5</li>
-                </ul>
-            </div>
-        </section>
-        <!-- i just need maximum 5 advertisement in row in big screen and then auto-fit screen size -->
-        <section class="advertisement row-no-center">
-            <h1 class="advertisement__h2 big-title col-lg-12">More Laptops & Notebooks</h1>
-       
-            <div class="advertisement__product col-lg-3 col-md-5 col-sm-12 col-xs-12">
-                <div>
-                    <img class="advertisement__image" src="./assets/images/home-page/advertisement-images/dell-alienware.png" alt="">
-                </div>
-                <div class="advertisement__name">
-                    <h2>Dell Alienware</h2>
-                </div>
-                <div class="advertisement__description">
-                    <ul class="advertisement__list">
-                        <li class="advertisement__item">proccesor: core I5</li>
-                        <li class="advertisement__item">Ram: 16 DDR4</li>
-                        <li class="advertisement__item">Hard Disk: 500G</li>
-                        <li class="advertisement__item">Display: nivida 1660ti</li>
-                    </ul>
-                </div>
-                <div class="advertisement__stars">
-                    <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star-half-o" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star-o" aria-hidden="true"></i>
-                </div>
-                <div class="advertisement__price">
-                    <span>Price: 300$</span>
-                </div>
-                <div>
-                    <button class="btn advertisement__btn advertisement__btn--active">Add To Cart</button>
-                </div>
-            </div>
-            <div class="advertisement__product col-lg-3 col-md-5 col-sm-12 col-xs-12">
-                <div>
-                    <img class="advertisement__image"  src="assets/images/home-page/advertisement-images/dell-xps.png"
-                        alt="dell-xps">
-                </div>
-                <div class="advertisement__name">
-                    <h2>Dell XPS 13</h2>
-                </div>
-                <div class="advertisement__description">
-                    <ul class="advertisement__list">
-                        <li class="advertisement__item">proccesor: core I5</li>
-                        <li class="advertisement__item">Ram: 16 DDR4</li>
-                        <li class="advertisement__item">Hard Disk: 500G</li>
-                        <li class="advertisement__item">Display: nivida 1660ti</li>
-                    </ul>
-                </div>
-                <div class="advertisement__stars">
-                    <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star-o" aria-hidden="true"></i>
-                </div>
-                <div class="advertisement__price">
-                    <span>Price: 350$</span>
-                </div>
-                <div>
-                    <button class="btn advertisement__btn advertisement__btn--active">Add To Cart</button>
-                </div>
-            </div>
-            <div class="advertisement__product col-lg-3 col-md-5 col-sm-12 col-xs-12">
-                <div>
-                    <img class="advertisement__image" 
-                        src="assets/images/home-page/advertisement-images/hp-elitebook.png" alt="hp-elitebook">
-                </div>
-                <div class="advertisement__name">
-                    <h2>HP EliteBook</h2>
-                </div>
-                <div class="advertisement__description">
-                    <ul class="advertisement__list">
-                        <li class="advertisement__item">proccesor: core I5</li>
-                        <li class="advertisement__item">Ram: 16 DDR4</li>
-                        <li class="advertisement__item">Hard Disk: 500G</li>
-                        <li class="advertisement__item">Display: nivida 1660ti</li>
-                    </ul>
-                </div>
-                <div class="advertisement__stars">
-                    <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star-half-o" aria-hidden="true"></i>
-                </div>
-                <div class="advertisement__price">
-                    <span>Price: 500$</span>
-                </div>
-                <div>
-                    <button class="btn advertisement__btn advertisement__btn--active">Add To Cart</button>
-                </div>
-            </div>
-            <div class="advertisement__product col-lg-3 col-md-5 col-sm-12 col-xs-12">
-                <div>
-                    <img class="advertisement__image" 
-                        src="assets/images/home-page/advertisement-images/asus-notebook.png" alt="asus-notebook">
-                </div>
-                <div class="advertisement__name">
-                    <h2>Asus Notebook</h2>
-                </div>
-                <div class="advertisement__description">
-                    <ul class="advertisement__list">
-                        <li class="advertisement__item">proccesor: core I5</li>
-                        <li class="advertisement__item">Ram: 16 DDR4</li>
-                        <li class="advertisement__item">Hard Disk: 500G</li>
-                        <li class="advertisement__item">Display: nivida 1660ti</li>
-                    </ul>
-                </div>
-                <div class="advertisement__stars">
-                    <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star-half-o" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star-o" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star-o" aria-hidden="true"></i>
-                </div>
-                <div class="advertisement__price">
-                    <span>Price: 200$</span>
-                </div>
-                <div>
-                    <button class="btn advertisement__btn advertisement__btn--active">Add To Cart</button>
-                </div>
-            </div>
-            <div class="advertisement__product col-lg-3 col-md-5 col-sm-12 col-xs-12">
-                <di>
-                    <img class="advertisement__image" 
-                        src="assets/images/home-page/advertisement-images/acer-aspire.png" alt="acer-aspire">
-                </di>
-                <div class="advertisement__name">
-                    <h2>Acer Aspire</h2>
-                </div>
-                <div class="advertisement__description">
-                    <ul class="advertisement__list">
-                        <li class="advertisement__item">proccesor: core I5</li>
-                        <li class="advertisement__item">Ram: 16 DDR4</li>
-                        <li class="advertisement__item">Hard Disk: 500G</li>
-                        <li class="advertisement__item">Display: nivida 1660ti</li>
-                    </ul>
-                </div>
-                <div class="advertisement__stars">
-                    <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star-half-o" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star-o" aria-hidden="true"></i>
-                </div>
-                <div class="advertisement__price">
-                    <span>Price: 250$</span>
-                </div>
-                <div>
-                    <button class="btn advertisement__btn advertisement__btn--active">Add To Cart</button>
-                </div>
-            </div>
-            <div class="advertisement__product col-lg-3 col-md-5 col-sm-12 col-xs-12">
-                <div>
-                    <img class="advertisement__image" 
-                        src="assets/images/home-page/advertisement-images/lenovo-gamer.png" alt="lenovo-gamer">
-                </div>
-                <div class="advertisement__name">
-                    <h2>Lenovo Gamer</h2>
-                </div>
-                <div class="advertisement__description">
-                    <ul class="advertisement__list">
-                        <li class="advertisement__item">proccesor: core I5</li>
-                        <li class="advertisement__item">Ram: 16 DDR4</li>
-                        <li class="advertisement__item">Hard Disk: 500G</li>
-                        <li class="advertisement__item">Display: nivida 1660ti</li>
-                    </ul>
-                </div>
-                <div class="advertisement__stars">
-                    <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star-o" aria-hidden="true"></i>
-                </div>
-                <div class="advertisement__price">
-                    <span>Price: 400$</span>
-                </div>
-                <div>
-                    <button class="btn advertisement__btn advertisement__btn--active">Add To Cart</button>
-                </div>
-            </div>
-            <div class="advertisement__product col-lg-3 col-md-5 col-sm-12 col-xs-12">
-                <div>
-                    <img class="advertisement__image" 
-                        src="assets/images/home-page/advertisement-images/macbook-air.png" alt="macbook-air">
-                </div>
-                <div class="advertisement__name">
-                    <h2>MacBook Air</h2>
-                </div>
-                <div class="advertisement__description">
-                    <ul class="advertisement__list">
-                        <li class="advertisement__item">proccesor: core I5</li>
-                        <li class="advertisement__item">Ram: 16 DDR4</li>
-                        <li class="advertisement__item">Hard Disk: 500G</li>
-                        <li class="advertisement__item">Display: nivida 1660ti</li>
-                    </ul>
-                </div>
-                <div class="advertisement__stars">
-                    <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star-half-o" aria-hidden="true"></i>
-                </div>
-                <div class="advertisement__price">
-                    <span>Price: 600$</span>
-                </div>
-                <div>
-                    <button class="btn advertisement__btn advertisement__btn--active">Add To Cart</button>
-                </div>
-            </div>
-            <div class="advertisement__product col-lg-3 col-md-5 col-sm-12 col-xs-12">
-                <div>
-                    <img class="advertisement__image" 
-                        src="assets/images/home-page/advertisement-images/macbook-pro.png" alt="macbook-pro">
-                </div>
-                <div class="advertisement__name">
-                    <h2>MacBook pro</h2>
-                </div>
-                <div class="advertisement__description">
-                    <ul class="advertisement__list">
-                        <li class="advertisement__item">proccesor: core I5</li>
-                        <li class="advertisement__item">Ram: 16 DDR4</li>
-                        <li class="advertisement__item">Hard Disk: 500G</li>
-                        <li class="advertisement__item">Display: nivida 1660ti</li>
-                    </ul>
-                </div>
-                <div class="advertisement__stars">
-                    <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star-o" aria-hidden="true"></i>
-                </div>
-                <div class="advertisement__price">
-                    <span>Price: 450$</span>
-                </div>
-                <div>
-                    <button class="btn advertisement__btn advertisement__btn--active">Add To Cart</button>
-                </div>
-            </div>
-            <div class="advertisement__product col-lg-3 col-md-5 col-sm-12 col-xs-12">
-                <div>
-                    <img class="advertisement__image" 
-                        src="assets/images/home-page/advertisement-images/macbook-pro-md.png" alt="macbook-pro-md">
-                </div>
-                <div class="advertisement__name">
-                    <h2>MacBook</h2>
-                </div>
-                <div class="advertisement__description">
-                    <ul class="advertisement__list">
-                        <li class="advertisement__item">proccesor: core I5</li>
-                        <li class="advertisement__item">Ram: 16 DDR4</li>
-                        <li class="advertisement__item">Hard Disk: 500G</li>
-                        <li class="advertisement__item">Display: nivida 1660ti</li>
-                    </ul>
-                </div>
-                <div class="advertisement__stars">
-                    <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star-half-o" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star-o" aria-hidden="true"></i>
-                </div>
-                <div class="advertisement__price">
-                    <span>Price: 380$</span>
-                </div>
-                <div>
-                    <button class="btn advertisement__btn advertisement__btn--active">Add To Cart</button>
-                </div>
-            </div>
-            <div class="advertisement__product col-lg-3 col-md-5 col-sm-12 col-xs-12">
-                <div>
-                    <img class="advertisement__image" 
-                        src="assets/images/home-page/advertisement-images/yoga-lenovo.png" alt="yoga-lenovo">
-                </div>
-                <div class="advertisement__name">
-                    <h2>Yoga 13 Lenovo</h2>
-                </div>
-                <div class="advertisement__description">
-                    <ul class="advertisement__list">
-                        <li class="advertisement__item">proccesor: core I5</li>
-                        <li class="advertisement__item">Ram: 16 DDR4</li>
-                        <li class="advertisement__item">Hard Disk: 500G</li>
-                        <li class="advertisement__item">Display: nivida 1660ti</li>
-                    </ul>
-                </div>
-                <div class="advertisement__stars">
-                    <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
-                    <i class="advertisement__star fa fa-star-o" aria-hidden="true"></i> <i
-                        class="advertisement__star fa fa-star-o" aria-hidden="true"></i>
-                </div>
-                <div class="advertisement__price">
-                    <span>Price: 400$</span>
-                </div>
-                <div>
-                    <button class="btn advertisement__btn advertisement__btn--active">Add To Cart</button>
-                </div>
-            </div>
-        </section>
-        <footer>
-            <div class="ending row-no-center">
-                <div class="ending__contact col-lg-3 col-sm-12 col-xs-12">
-                    <h2 class="ending__title">Contact us</h2>
-                    <ul class="ending__list">
-                        <li class="ending__item"><a class="ending__link ending__link--active"
-                                href="#">computerShop@gmail.com</a></li>
-                        <li><a class="ending__link ending__link--active" href="#">01589647523</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="ending__information col-lg-3 col-sm-12 col-xs-12">
-                    <h2 class="ending__title">Informations</h2>
-                    <ul class="ending__list">
-                        <li class="ending__item"><a class="ending__item ending__link--active" href=" #">Home</a></li>
-                        <li class="ending__item"><a class="ending__item ending__link--active" href=" #">Products</a>
-                        </li>
-                        <li class="ending__item"><a class="ending__item ending__link--active" href=" #">About us</a>
-                        </li>
-                        <li class="ending__item"><a class="ending__item ending__link--active" href=" #">Contact</a></li>
-                        <li class="ending__item"><a class="ending__item ending__link--active" href=" #">Services</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="ending__helpfull col-lg-3 col-sm-12 col-xs-12">
-                    <h2 class="ending__title">Helpfull</h2>
-                    <ul>
-                        <li class="ending__item"><a class="ending__link ending__link--active href=" #">Supports</a></li>
-                        <li class="ending__item"><a class="ending__link ending__link--active href=" #">Terms &
-                                Condition</a></li>
-                        <li class="ending__item"><a class="ending__link ending__link--active href=" #">Privacy</a></li>
-                        <li class="ending__item"><a class="ending__link ending__link--active href=" #">Events</a></li>
-                    </ul>
-                </div>
-                <div class="top-banner__end-logo col-lg-3 col-sm-12 col-xs-12">
-                    <img class="top-banner__end-picture" src="assets/images/home-page/top-banner/top-banner-logo.png"
-                        alt="top-banner-logo">
-                </div>
-                <div class="ending__line"></div>
-                <div class="ending__legal">
-                    <span>@copyright &copy; 2020 </span>
-                </div>
-            </div>
-        </footer>
-    </div>
-</body>
+      <div class="main-container__nav-bar" id="home">
+        <div class="nav-bar row">
+          <!-- this hamburgers should be hide untill screen hit min-width 1200px and then will show up -->
+          <div class="nav-bar__hamburgers col-md-1 col-sm-1 col-xs-2">
+            <div class="nav-bar__line"></div>
+            <div class="nav-bar__line"></div>
+            <div class="nav-bar__line"></div>
+          </div>
+          <!-- its not scale have width 250px doesnot change even in mobile screen -->
+          <div class="nav-bar__logo col-lg-3 col-md-6 col-sm-8 col-xs-10">
+            <img
+              class="nav-bar__picture"
+              src="assets/images/logo/logo.png"
+              alt="logo"
+            />
+          </div>
+          <ul class="nav-bar__list row col-lg-5 col-lg-right col-md-12">
+            <li class="nav-bar__item col-lg-2">
+              <a class="nav-bar__link nav-bar__link--active" href="#home"
+                >Home</a
+              >
+            </li>
 
+            <li class="nav-bar__item col-lg-2">
+              <a class="nav-bar__link nav-bar__link--active" href="#sections"
+                >Sections</a
+              >
+            </li>
+            <li class="nav-bar__item col-lg-2">
+              <a class="nav-bar__link nav-bar__link--active" href="#products"
+                >Products</a
+              >
+            </li>
+            <li class="nav-bar__item col-lg-2">
+              <a class="nav-bar__link nav-bar__link--active" href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <div class="nav-bar__register-btn col-lg-2 col-md-2 col-sm-3">
+            <button class="btn nav-bar__btn nav-bar__btn--active">
+              Register
+            </button>
+          </div>
+          <div class="nav-bar__social-icons col-lg-2 col-md-3">
+            <ul class="nav-bar__social-list row">
+              <li class="nav-bar__social-item col-lg-3">
+                <i
+                  class="
+                    nav-bar__icon nav-bar__icon--active
+                    fa fa-facebook-square
+                  "
+                  aria-hidden="true"
+                ></i>
+              </li>
+              <li class="nav-bar__social-item col-lg-3">
+                <i
+                  class="
+                    nav-bar__icon nav-bar__icon--active
+                    fa fa-twitter-square
+                  "
+                  aria-hidden="true"
+                ></i>
+              </li>
+              <li class="nav-bar__social-item col-lg-3">
+                <i
+                  class="nav-bar__icon nav-bar__icon--active fa fa-instagram"
+                  aria-hidden="true"
+                ></i>
+              </li>
+              <li class="nav-bar__social-item col-lg-3">
+                <i
+                  class="
+                    nav-bar__icon nav-bar__icon--active
+                    fa fa-shopping-cart
+                  "
+                  aria-hidden="true"
+                ></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <header class="top-banner col">
+          <div class="top-banner__logo">
+            <img
+              class="top-banner__picture"
+              src="assets/images/home-page/top-banner/top-banner-logo.png"
+              alt="top-banner-logo"
+            />
+          </div>
+          <h1 class="top-banner__title">Online Store</h1>
+          <button class="btn top-banner__btn top-banner__btn--active">
+            Start Now
+          </button>
+        </header>
+      </div>
+      <section class="departments row col-lg-center" id="sections">
+        <h1 class="departments__title big-title col-lg-12">Sections</h1>
+        <div class="departments__card col-lg-3 col-md-5 col-sm-12 col-xs-12">
+          <i class="departments__icon fa fa-television" aria-hidden="true"></i>
+          <h1 class="departments__name">Computers</h1>
+          <p class="departments__description">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
+            natus quidem quos officiis esse quae. Veniam natus ipsum
+            necessitatibus atque.
+          </p>
+        </div>
+        <div class="departments__card col-lg-3 col-md-5 col-sm-12 col-xs-12">
+          <i class="departments__icon fa fa-laptop" aria-hidden="true"></i>
+          <h1 class="departments__name">Laptops</h1>
+          <p class="departments__description">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
+            natus quidem quos officiis esse quae. Veniam natus ipsum
+            necessitatibus atque.
+          </p>
+        </div>
+        <div class="departments__card col-lg-3 col-md-5 col-sm-12 col-xs-12">
+          <i class="departments__icon fa fa-mobile" aria-hidden="true"></i>
+          <h1 class="departments__name">Mobiles</h1>
+          <p class="departments__description">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
+            natus quidem quos officiis esse quae. Veniam natus ipsum
+            necessitatibus atque.
+          </p>
+        </div>
+      </section>
+      <section class="main-announcement row col-lg-center">
+        <h1 class="main-announcement__title big-title col-lg-12">
+          Dell XPS 13
+        </h1>
+        <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+          <!-- its will gonna have scale so consider that on width and height -->
+          <img
+            class="
+              main-announcement__picture main-announcement__picture--active
+            "
+            src="assets/images/home-page/main-announcement/dellxsp13.png"
+            alt="dellxsp13"
+          />
+        </div>
+        <div
+          class="
+            main-announcement__description
+            col-lg-3 col-md-5 col-sm-8 col-xs-12
+          "
+        >
+          <!-- dont remove list-style -->
+          <ul class="main-announcement__list">
+            <li class="main-announcement__item">
+              Computer CPU Manufacturer : Apple
+            </li>
+            <li class="main-announcement__item">
+              External Product ID : 190199256170
+            </li>
+            <li class="main-announcement__item">Hard Disk Interface : SSD</li>
+            <li class="main-announcement__item">
+              Processor Speed (GHz) : 1.1 Up To 3.2 Ghz
+            </li>
+            <li class="main-announcement__item">Hardware Platform : Mac OS</li>
+            <li class="main-announcement__item">
+              Screen Size Range : 13 - 13.9 Inch
+            </li>
+            <li class="main-announcement__item">RAM Size : 8 GB</li>
+            <li class="main-announcement__item">
+              Processor Family : Intel Core i5
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- i just need maximum 5 advertisement in row in big screen and then auto-fit screen size -->
+      <section class="advertisement row-no-center" id="products">
+        <h1 class="advertisement__h2 big-title col-lg-12">
+          More Laptops & Notebooks
+        </h1>
+
+        <div
+          class="advertisement__product col-lg-3 col-md-5 col-sm-12 col-xs-12"
+        >
+          <div>
+            <img
+              class="advertisement__image"
+              src="./assets/images/home-page/advertisement-images/dell-alienware.png"
+              alt=""
+            />
+          </div>
+          <div class="advertisement__name">
+            <h2>Dell Alienware</h2>
+          </div>
+          <div class="advertisement__description">
+            <ul class="advertisement__list">
+              <li class="advertisement__item">proccesor: core I5</li>
+              <li class="advertisement__item">Ram: 16 DDR4</li>
+              <li class="advertisement__item">Hard Disk: 500G</li>
+              <li class="advertisement__item">Display: nivida 1660ti</li>
+            </ul>
+          </div>
+          <div class="advertisement__stars">
+            <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
+            <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
+            <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
+            <i
+              class="advertisement__star fa fa-star-half-o"
+              aria-hidden="true"
+            ></i>
+            <i class="advertisement__star fa fa-star-o" aria-hidden="true"></i>
+          </div>
+          <div class="advertisement__price">
+            <span>Price: 300$</span>
+          </div>
+          <div>
+            <button class="btn advertisement__btn advertisement__btn--active">
+              Add To Cart
+            </button>
+          </div>
+        </div>
+        <div
+          class="advertisement__product col-lg-3 col-md-5 col-sm-12 col-xs-12"
+        >
+          <div>
+            <img
+              class="advertisement__image"
+              src="assets/images/home-page/advertisement-images/dell-xps.png"
+              alt="dell-xps"
+            />
+          </div>
+          <div class="advertisement__name">
+            <h2>Dell XPS 13</h2>
+          </div>
+          <div class="advertisement__description">
+            <ul class="advertisement__list">
+              <li class="advertisement__item">proccesor: core I5</li>
+              <li class="advertisement__item">Ram: 16 DDR4</li>
+              <li class="advertisement__item">Hard Disk: 500G</li>
+              <li class="advertisement__item">Display: nivida 1660ti</li>
+            </ul>
+          </div>
+          <div class="advertisement__stars">
+            <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
+            <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
+            <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
+            <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
+            <i class="advertisement__star fa fa-star-o" aria-hidden="true"></i>
+          </div>
+          <div class="advertisement__price">
+            <span>Price: 350$</span>
+          </div>
+          <div>
+            <button class="btn advertisement__btn advertisement__btn--active">
+              Add To Cart
+            </button>
+          </div>
+        </div>
+        <div
+          class="advertisement__product col-lg-3 col-md-5 col-sm-12 col-xs-12"
+        >
+          <div>
+            <img
+              class="advertisement__image"
+              src="assets/images/home-page/advertisement-images/hp-elitebook.png"
+              alt="hp-elitebook"
+            />
+          </div>
+          <div class="advertisement__name">
+            <h2>HP EliteBook</h2>
+          </div>
+          <div class="advertisement__description">
+            <ul class="advertisement__list">
+              <li class="advertisement__item">proccesor: core I5</li>
+              <li class="advertisement__item">Ram: 16 DDR4</li>
+              <li class="advertisement__item">Hard Disk: 500G</li>
+              <li class="advertisement__item">Display: nivida 1660ti</li>
+            </ul>
+          </div>
+          <div class="advertisement__stars">
+            <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
+            <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
+            <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
+            <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
+            <i
+              class="advertisement__star fa fa-star-half-o"
+              aria-hidden="true"
+            ></i>
+          </div>
+          <div class="advertisement__price">
+            <span>Price: 500$</span>
+          </div>
+          <div>
+            <button class="btn advertisement__btn advertisement__btn--active">
+              Add To Cart
+            </button>
+          </div>
+        </div>
+        <div
+          class="advertisement__product col-lg-3 col-md-5 col-sm-12 col-xs-12"
+        >
+          <div>
+            <img
+              class="advertisement__image"
+              src="assets/images/home-page/advertisement-images/asus-notebook.png"
+              alt="asus-notebook"
+            />
+          </div>
+          <div class="advertisement__name">
+            <h2>Asus Notebook</h2>
+          </div>
+          <div class="advertisement__description">
+            <ul class="advertisement__list">
+              <li class="advertisement__item">proccesor: core I5</li>
+              <li class="advertisement__item">Ram: 16 DDR4</li>
+              <li class="advertisement__item">Hard Disk: 500G</li>
+              <li class="advertisement__item">Display: nivida 1660ti</li>
+            </ul>
+          </div>
+          <div class="advertisement__stars">
+            <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
+            <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
+            <i
+              class="advertisement__star fa fa-star-half-o"
+              aria-hidden="true"
+            ></i>
+            <i class="advertisement__star fa fa-star-o" aria-hidden="true"></i>
+            <i class="advertisement__star fa fa-star-o" aria-hidden="true"></i>
+          </div>
+          <div class="advertisement__price">
+            <span>Price: 200$</span>
+          </div>
+          <div>
+            <button class="btn advertisement__btn advertisement__btn--active">
+              Add To Cart
+            </button>
+          </div>
+        </div>
+        <div
+          class="advertisement__product col-lg-3 col-md-5 col-sm-12 col-xs-12"
+        >
+          <di>
+            <img
+              class="advertisement__image"
+              src="assets/images/home-page/advertisement-images/acer-aspire.png"
+              alt="acer-aspire"
+            />
+          </di>
+          <div class="advertisement__name">
+            <h2>Acer Aspire</h2>
+          </div>
+          <div class="advertisement__description">
+            <ul class="advertisement__list">
+              <li class="advertisement__item">proccesor: core I5</li>
+              <li class="advertisement__item">Ram: 16 DDR4</li>
+              <li class="advertisement__item">Hard Disk: 500G</li>
+              <li class="advertisement__item">Display: nivida 1660ti</li>
+            </ul>
+          </div>
+          <div class="advertisement__stars">
+            <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
+            <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
+            <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
+            <i
+              class="advertisement__star fa fa-star-half-o"
+              aria-hidden="true"
+            ></i>
+            <i class="advertisement__star fa fa-star-o" aria-hidden="true"></i>
+          </div>
+          <div class="advertisement__price">
+            <span>Price: 250$</span>
+          </div>
+          <div>
+            <button class="btn advertisement__btn advertisement__btn--active">
+              Add To Cart
+            </button>
+          </div>
+        </div>
+        <div
+          class="advertisement__product col-lg-3 col-md-5 col-sm-12 col-xs-12"
+        >
+          <div>
+            <img
+              class="advertisement__image"
+              src="assets/images/home-page/advertisement-images/lenovo-gamer.png"
+              alt="lenovo-gamer"
+            />
+          </div>
+          <div class="advertisement__name">
+            <h2>Lenovo Gamer</h2>
+          </div>
+          <div class="advertisement__description">
+            <ul class="advertisement__list">
+              <li class="advertisement__item">proccesor: core I5</li>
+              <li class="advertisement__item">Ram: 16 DDR4</li>
+              <li class="advertisement__item">Hard Disk: 500G</li>
+              <li class="advertisement__item">Display: nivida 1660ti</li>
+            </ul>
+          </div>
+          <div class="advertisement__stars">
+            <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
+            <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
+            <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
+            <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
+            <i class="advertisement__star fa fa-star-o" aria-hidden="true"></i>
+          </div>
+          <div class="advertisement__price">
+            <span>Price: 400$</span>
+          </div>
+          <div>
+            <button class="btn advertisement__btn advertisement__btn--active">
+              Add To Cart
+            </button>
+          </div>
+        </div>
+        <div
+          class="advertisement__product col-lg-3 col-md-5 col-sm-12 col-xs-12"
+        >
+          <div>
+            <img
+              class="advertisement__image"
+              src="assets/images/home-page/advertisement-images/macbook-air.png"
+              alt="macbook-air"
+            />
+          </div>
+          <div class="advertisement__name">
+            <h2>MacBook Air</h2>
+          </div>
+          <div class="advertisement__description">
+            <ul class="advertisement__list">
+              <li class="advertisement__item">proccesor: core I5</li>
+              <li class="advertisement__item">Ram: 16 DDR4</li>
+              <li class="advertisement__item">Hard Disk: 500G</li>
+              <li class="advertisement__item">Display: nivida 1660ti</li>
+            </ul>
+          </div>
+          <div class="advertisement__stars">
+            <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
+            <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
+            <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
+            <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
+            <i
+              class="advertisement__star fa fa-star-half-o"
+              aria-hidden="true"
+            ></i>
+          </div>
+          <div class="advertisement__price">
+            <span>Price: 600$</span>
+          </div>
+          <div>
+            <button class="btn advertisement__btn advertisement__btn--active">
+              Add To Cart
+            </button>
+          </div>
+        </div>
+        <div
+          class="advertisement__product col-lg-3 col-md-5 col-sm-12 col-xs-12"
+        >
+          <div>
+            <img
+              class="advertisement__image"
+              src="assets/images/home-page/advertisement-images/macbook-pro.png"
+              alt="macbook-pro"
+            />
+          </div>
+          <div class="advertisement__name">
+            <h2>MacBook pro</h2>
+          </div>
+          <div class="advertisement__description">
+            <ul class="advertisement__list">
+              <li class="advertisement__item">proccesor: core I5</li>
+              <li class="advertisement__item">Ram: 16 DDR4</li>
+              <li class="advertisement__item">Hard Disk: 500G</li>
+              <li class="advertisement__item">Display: nivida 1660ti</li>
+            </ul>
+          </div>
+          <div class="advertisement__stars">
+            <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
+            <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
+            <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
+            <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
+            <i class="advertisement__star fa fa-star-o" aria-hidden="true"></i>
+          </div>
+          <div class="advertisement__price">
+            <span>Price: 450$</span>
+          </div>
+          <div>
+            <button class="btn advertisement__btn advertisement__btn--active">
+              Add To Cart
+            </button>
+          </div>
+        </div>
+        <div
+          class="advertisement__product col-lg-3 col-md-5 col-sm-12 col-xs-12"
+        >
+          <div>
+            <img
+              class="advertisement__image"
+              src="assets/images/home-page/advertisement-images/macbook-pro-md.png"
+              alt="macbook-pro-md"
+            />
+          </div>
+          <div class="advertisement__name">
+            <h2>MacBook</h2>
+          </div>
+          <div class="advertisement__description">
+            <ul class="advertisement__list">
+              <li class="advertisement__item">proccesor: core I5</li>
+              <li class="advertisement__item">Ram: 16 DDR4</li>
+              <li class="advertisement__item">Hard Disk: 500G</li>
+              <li class="advertisement__item">Display: nivida 1660ti</li>
+            </ul>
+          </div>
+          <div class="advertisement__stars">
+            <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
+            <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
+            <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
+            <i
+              class="advertisement__star fa fa-star-half-o"
+              aria-hidden="true"
+            ></i>
+            <i class="advertisement__star fa fa-star-o" aria-hidden="true"></i>
+          </div>
+          <div class="advertisement__price">
+            <span>Price: 380$</span>
+          </div>
+          <div>
+            <button class="btn advertisement__btn advertisement__btn--active">
+              Add To Cart
+            </button>
+          </div>
+        </div>
+        <div
+          class="advertisement__product col-lg-3 col-md-5 col-sm-12 col-xs-12"
+        >
+          <div>
+            <img
+              class="advertisement__image"
+              src="assets/images/home-page/advertisement-images/yoga-lenovo.png"
+              alt="yoga-lenovo"
+            />
+          </div>
+          <div class="advertisement__name">
+            <h2>Yoga 13 Lenovo</h2>
+          </div>
+          <div class="advertisement__description">
+            <ul class="advertisement__list">
+              <li class="advertisement__item">proccesor: core I5</li>
+              <li class="advertisement__item">Ram: 16 DDR4</li>
+              <li class="advertisement__item">Hard Disk: 500G</li>
+              <li class="advertisement__item">Display: nivida 1660ti</li>
+            </ul>
+          </div>
+          <div class="advertisement__stars">
+            <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
+            <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
+            <i class="advertisement__star fa fa-star" aria-hidden="true"></i>
+            <i class="advertisement__star fa fa-star-o" aria-hidden="true"></i>
+            <i class="advertisement__star fa fa-star-o" aria-hidden="true"></i>
+          </div>
+          <div class="advertisement__price">
+            <span>Price: 400$</span>
+          </div>
+          <div>
+            <button class="btn advertisement__btn advertisement__btn--active">
+              Add To Cart
+            </button>
+          </div>
+        </div>
+      </section>
+      <footer id="contact">
+        <div class="ending row-no-center">
+          <div class="ending__contact col-lg-3 col-sm-12 col-xs-12">
+            <h2 class="ending__title">Contact us</h2>
+            <ul class="ending__list">
+              <li class="ending__item">
+                <a class="ending__link ending__link--active" href="#"
+                  >computerShop@gmail.com</a
+                >
+              </li>
+              <li>
+                <a class="ending__link ending__link--active" href="#"
+                  >01589647523</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="ending__information col-lg-3 col-sm-12 col-xs-12">
+            <h2 class="ending__title">Informations</h2>
+            <ul class="ending__list">
+              <li class="ending__item">
+                <a class="ending__item ending__link--active" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="ending__item">
+                <a class="ending__item ending__link--active" href="#sections"
+                  >Sections</a
+                >
+              </li>
+              <li class="ending__item">
+                <a class="ending__item ending__link--active" href="#products"
+                  >Products</a
+                >
+              </li>
+              <li class="ending__item">
+                <a class="ending__item ending__link--active" href="#contact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="ending__helpfull col-lg-3 col-sm-12 col-xs-12">
+            <h2 class="ending__title">Helpfull</h2>
+            <ul>
+              <li class="ending__item">
+                <a class="ending__link ending__link--active" href="#"
+                  >Supports</a
+                >
+              </li>
+              <li class="ending__item">
+                <a class="ending__link ending__link--active" href="#"
+                  >Terms & Condition</a
+                >
+              </li>
+              <li class="ending__item">
+                <a class="ending__link ending__link--active" href="#"
+                  >Privacy</a
+                >
+              </li>
+              <li class="ending__item">
+                <a class="ending__link ending__link--active" href="#">Events</a>
+              </li>
+            </ul>
+          </div>
+          <div class="top-banner__end-logo col-lg-3 col-sm-12 col-xs-12">
+            <img
+              class="top-banner__end-picture"
+              src="assets/images/home-page/top-banner/top-banner-logo.png"
+              alt="top-banner-logo"
+            />
+          </div>
+          <div class="ending__line"></div>
+          <div class="ending__legal">
+            <span>@copyright &copy; 2020 </span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./js/app.js"></script>
+  </body>
 </html>
