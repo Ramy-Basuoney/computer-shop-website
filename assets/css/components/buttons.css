@@ -1,34 +1,37 @@
-.btn{
-    padding: 10px 30px;
-    font-size: var(--button);
-    border: none;
-    border-radius: 20px;
-    color: var(--white);
-    font-weight: bold;
+.btn {
+  padding: 10px 30px;
+  font-size: var(--button);
+  border: none;
+  border-radius: 30px;
+  color: var(--white);
+  font-weight: bold;
+  cursor: pointer;
 }
-.nav-bar__btn{
-   background-color: var(--gray-btn);
-   color: var(--black); 
-} 
-.nav-bar__btn--active:hover{
-    background-color: var(--gray-btn-action);
-    color: var(--white);
-    transition: all .3s ease-in-out;
+.nav-bar__btn {
+  background-color: var(--gray-btn);
+  color: var(--black);
+  transition: all 0.5s ease;
+  cursor: pointer;
 }
-.top-banner__btn{
-    color: var(--black);
-    width: 380px;
-    text-transform: uppercase;
-    font-size: var(--big-button);
-} 
-.top-banner__btn--active:hover{
-    background-color: var(--gray-btn-action);
-    color: var(--white);
-    transition: all .3s ease-in-out;
+.nav-bar__btn--active:hover {
+  background-color: var(--gray-btn-action);
 }
-.advertisement__btn{
-    background-color: var(--green-btn);
+.top-banner__btn {
+  width: 250px;
+  cursor: pointer;
+  color: var(--gray);
+  text-transform: uppercase;
+  font-size: var(--big-button);
+  transition: all 0.5s ease;
+  padding: 15px 35px;
 }
-.advertisement__btn--active:hover{
-    background-color: var(--green-btn-action);
+.top-banner__btn--active:hover {
+  background-color: var(--gray-btn-action);
+  color: var(--white);
+}
+.advertisement__btn {
+  background-color: var(--green-btn);
+}
+.advertisement__btn--active:hover {
+  background-color: var(--green-btn-action);
 }

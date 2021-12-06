@@ -1,15 +1,19 @@
-.top-banner > *{
-    margin-bottom: 10px;
+.top-banner {
+  height: 95vh;
+}
+.top-banner > * {
+  margin-bottom: 10px;
 }
 /* width 100% to scale width mobile screen */
-.top-banner__picture{
-    max-width: 600px;
-    width: 100%;
-    margin-top: 50px;
+.top-banner__picture {
+  max-width: 500px;
+  width: 100%;
 }
-.top-banner__title{
-    color: var(--white);
-    border-top: 5px solid var(--white);
-    border-bottom: 5px solid var(--white);
-    font-size: var(--primary-title);
+.top-banner__title {
+  color: var(--white);
+  width: 250px;
+  text-align: center;
+  border-top: 2px solid var(--white);
+  border-bottom: 2px solid var(--white);
+  font-size: var(--primary-title);
 }

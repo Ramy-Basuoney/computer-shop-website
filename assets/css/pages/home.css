@@ -1,87 +1,94 @@
 /* useing this for all big title in website*/
-.big-title{
-    font-size: var(--primary-title);
-    color: var(--gray-btn-action);
-    margin-bottom: 50px;
+.big-title {
+  font-size: var(--primary-title);
+  color: var(--titles);
+  margin-bottom: 50px;
 }
-.departments{
-    padding: 80px 30px ;
-    margin: auto;
-    width: 80%;
+.departments {
+  padding: 100px 30px;
+  margin: auto;
+  width: 80%;
 }
-.departments__card > *{
-    margin-bottom: 10px;
+.departments__card > * {
+  margin-bottom: 10px;
 }
 /* make cursor pointer for make it clickable in future*/
-.departments__card{
-    background-color: var(--gray-btn);
-    margin: 10px;
-    padding: 20px;
-    cursor: pointer;
+.departments__card {
+  background-color: var(--gray);
+  margin: 10px;
+  padding: 20px;
+  cursor: pointer;
+  color: var(--white);
 }
-.departments__icon{
-    font-size: var(--big-icon);
+.departments__icon {
+  font-size: var(--big-icon);
 }
-.departments__name{
-    font-size: var(--small-title);
-    color: var(--gray-btn-action);
+.departments__name {
+  font-size: var(--small-title);
 }
-.departments__description{
-    font-size: var(--paragraph);
-    color: var(--gray-btn-action);
+.departments__description {
+  font-size: var(--paragraph);
+  line-height: 1.4;
 }
-.main-announcement{
-    padding:30px 50px 80px;
-    background-image: url(../../images/home-page/main-announcement/background.png);
-    background-size: cover;
+.main-announcement {
+  padding: 100px 30px;
+  background-image: url("../../images/home-page/main-announcement/background-2.png");
+  background-size: cover;
+  background-position: center;
 }
-.main-announcement__picture{
-    max-width: 600px;
-    width: 100%;
-    transition: all .5s ease-in-out;
-} 
+.main-announcement__picture {
+  cursor: pointer;
+  max-width: 600px;
+  width: 100%;
+  transition: all 0.5s ease;
+  margin-right: 20px;
+}
 /* scale (1.1,1.1) to not Covering other sections */
-.main-announcement__picture--active:hover{
-    transform: scale(1.1,1.1);
-    transition: all .5s ease-in-out;
+.main-announcement__picture--active:hover {
+  transform: scale(1.1, 1.1);
 }
-.main-announcement__list{
-    list-style-type: disc;
-    line-height: 200%;
-    text-align: left;
+.main-announcement__list {
+  list-style-type: disc;
+  line-height: 200%;
+  text-align: left;
 }
-.main-announcement__item{
-    font-size: var(--paragraph);
+.main-announcement__item {
+  font-size: var(--big-button);
+  font-weight: 500;
 }
-.advertisement{
-    width: 80%;
-    margin: auto;
-    padding: 80px 0 ;
+
+.advertisement {
+  padding: 120px 30px;
+  background-color: rgb(236, 236, 236);
 }
-.advertisement__product{
-    background-color: var(--gray-btn);
-    margin:10px;
-    padding:20px 10px;
-    line-height: 200%;
-    max-width: 300px;
-    border-radius: 5px;
-    cursor: pointer;
+.advertisement__h2 {
+  margin-bottom: 100px;
 }
-.advertisement__picture{
-    width:150px
+.advertisement__product {
+  background-color: white;
+  margin: 10px;
+  padding: 30px 10px;
+  line-height: 200%;
+  max-width: 300px;
+  border-radius: 5px;
+  cursor: pointer;
 }
-.advertisement__name h2{
-    font-size: var(--small-title);
-    color: var(--red);
+.advertisement__image {
+  width: 150px;
+  height: 110px;
 }
-.advertisement__item{
-    font-size: var(--paragraph);
+.advertisement__name h2 {
+  font-size: var(--small-title);
+  color: var(--red);
 }
-.advertisement__star{
-    color: var(--yellow);
+.advertisement__item {
+  font-size: var(--paragraph);
 }
-.advertisement__price span{
-    color: var(--red);
-    font-size: var(--paragraph);
-    font-weight: var(--weight);
+.advertisement__star {
+  color: var(--yellow);
+}
+.advertisement__price span {
+  color: var(--red);
+  font-size: var(--paragraph);
+  font-weight: var(--weight);
 }

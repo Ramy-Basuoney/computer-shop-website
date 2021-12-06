@@ -1,52 +1,77 @@
-.main-container__nav-bar{  
-    background-image: url(../../images/home-page/top-banner/top-banner-background.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 30px;
+.main-container__nav-bar {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.534),
+      rgba(0, 0, 0, 0.239)
+    ),
+    url("../../images/home-page/top-banner/top-banner-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 30px;
+  height: 100vh;
+}
+
+.nav-bar {
+  height: 5vh;
 }
 /* display:none untill screen hit 1200px*/
-.nav-bar__hamburgers{
-    display: none;
+.nav-bar__hamburgers {
+  display: none;
 }
-.nav-bar__picture{
-    width: 250px;
+.nav-bar__picture {
+  width: 250px;
 }
-.nav-bar__link{
-    font-size: var(--link);
-} 
-.nav-bar__link--active:hover{
-    color: var(--gray-btn-action);
-    transition: all .2s ease-in-out;
+
+.nav-bar__link {
+  font-size: var(--link);
+  color: var(--of-white);
+  position: relative;
+}
+.nav-bar__link::after {
+  content: "";
+  width: 0%;
+  height: 1px;
+  background-color: var(--white);
+  position: absolute;
+  bottom: -10%;
+  left: 0%;
+  transition: all 0.5s ease;
+}
+.nav-bar__link--active:hover::after {
+  width: 100%;
 }
 .nav-bar__icon {
-    font-size: var(--icon);
-} 
-.nav-bar__icon--active:hover{
-    color: var(--gray-btn-action);
-    transition: all .2s ease-in-out;
+  font-size: var(--icon);
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.nav-bar__icon--active:hover {
+  transform: translateY(-5px);
 }
 /* (main-container__nav-bar) media query for 3 different size of screens */
-@media screen and (max-width:1400px){
-    .nav-bar__menu{
-        display: none;
-    }
-    .nav-bar__hamburgers{
-        display: block;
-    }
-    .nav-bar__line{
-        width: 30px;
-        height: 5px;
-        margin-bottom: 5px;
-        background-color: var(--white);
-    }
+@media screen and (max-width: 1400px) {
+  .nav-bar__menu {
+    display: none;
+  }
+  .nav-bar__hamburgers {
+    display: block;
+    cursor: pointer;
+  }
+  .nav-bar__line {
+    width: 25px;
+    height: 3px;
+    margin-bottom: 5px;
+    background-color: var(--white);
+  }
 }
-@media screen and (max-width:860px){
-    .nav-bar__social-icons{
-        display: none;
-    }
+@media screen and (max-width: 860px) {
+  .nav-bar__social-icons {
+    display: none;
+  }
 }
-@media screen and (max-width:500px){
-    .nav-bar__register-btn{
-        display: none;
-    }
+@media screen and (max-width: 500px) {
+  .nav-bar__register-btn {
+    display: none;
+  }
 }

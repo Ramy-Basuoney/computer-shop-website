@@ -1,27 +1,26 @@
 /* this margin important for mobile screen*/
-.ending > *{
-    margin-bottom: 30px;
+.ending > * {
+  margin-bottom: 10px;
 }
-.ending{
-    background-color: var(--black);
-    padding: 50px 0;
-    color: var(--white);
-    line-height: 200%;
+.ending {
+  background-color: var(--black);
+  padding: 50px 0 0;
+  color: var(--white);
+  line-height: 200%;
 }
-.ending__link{
-    font-size: var(--paragraph);
-} 
-.ending__link--active:hover{
-    color: var(--gray-btn-action);
-    text-decoration: underline;
-    transition: all .1s ease-in-out;
+.ending__link {
+  font-size: var(--paragraph);
 }
-.top-banner__end-picture{
-    width: 150px;
+.ending__link--active:hover {
+  color: var(--gray-btn-action);
+  text-decoration: underline;
+  transition: all 0.1s ease-in-out;
 }
-.ending__line{
-    background-color: var(--white);
-    height: 1px;
-    width: 100%;
+.top-banner__end-picture {
+  width: 150px;
 }
-
+.ending__line {
+  background-color: var(--white);
+  height: 1px;
+  width: 100%;
+}
